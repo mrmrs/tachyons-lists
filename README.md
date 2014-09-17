@@ -8,6 +8,46 @@ npm install --save-dev tachyons-lists
 ```
 or download the css on github and include in your project.
 
+## The Code
+```
+
+/*
+
+   LISTS
+
+*/
+
+.list {         list-style-type: none; }
+
+.list--h {
+   list-style-type: none;
+   .list--h-item {   display: inline-block; }
+}
+
+@include break(not-small) {
+  .list--h-ns {
+                list-style-type: none;
+    .list--h-item-ns {   display: inline-block; }
+  }
+}
+
+@include break(medium) {
+  .list-m {         list-style: none; }
+  .list--h-m {
+             list-style-type: none;
+             .list--h-item {   display: inline-block; }
+  }
+}
+
+@include break(large) {
+  .list-l {         list-style-type: none; }
+  .list--h-l {
+      list-style-type: none;
+     .list--h-item {   display: inline-block; }
+  }
+}
+```
+
 ## Author
 
 [http://mrmrs.cc - Entire internet gateway to all things mrmrs](http://mrmrs.cc)
