@@ -2,7 +2,7 @@
   "name": "tachyons-lists",
   "version": "1.0.0",
   "style": "tachyons-lists.css",
-  "homepage": "http://mrmrs.io/tachyons-lists",
+  "homepage": "http://github.com/mrmrs/tachyons-lists",
   "description": "Performance based css module.",
   "keywords": [
     "oocss",
