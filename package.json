@@ -1,6 +1,6 @@
 {
   "name": "tachyons-lists",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "style": "tachyons-lists.css",
   "homepage": "http://github.com/mrmrs/tachyons-lists",
   "description": "Performance based css module.",
