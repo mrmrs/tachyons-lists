@@ -1,53 +1,22 @@
-# TACHYONS-LISTS
+# <%= module.name %>
+<%= module.version %>
 
-http://tachyons.io
-
-Work In Progress. Pull requests and open issues welcome.
+<%= module.description %>
 
 ## Install
 ```
-npm install --save-dev tachyons-lists
+npm install --save-dev <%= module.name %>
 ```
-or download the css on github and include in your project.
+
+or download the css on github and include in your project:
+
+```
+git clone git@github.com:mrmrs/<%= module.name %>
+```
 
 ## The Code
 ```
-
-/*
-
-   LISTS
-
-*/
-
-.list {         list-style-type: none; }
-
-.list--h {
-   list-style-type: none;
-   .list--h-item {   display: inline-block; }
-}
-
-@include break(not-small) {
-  .list--h-ns {
-                list-style-type: none;
-    .list--h-item-ns {   display: inline-block; }
-  }
-}
-
-@include break(medium) {
-  .list-m {         list-style: none; }
-  .list--h-m {
-             list-style-type: none;
-             .list--h-item {   display: inline-block; }
-  }
-}
-
-@include break(large) {
-  .list-l {         list-style-type: none; }
-  .list--h-l {
-      list-style-type: none;
-     .list--h-item {   display: inline-block; }
-  }
-}
+<%= srcCSS %>
 ```
 
 ## Author
