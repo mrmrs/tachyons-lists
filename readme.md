@@ -1,4 +1,4 @@
-# tachyons-lists 1.1.0
+# tachyons-lists 2.0.3
 
 Performance based css module.
 
