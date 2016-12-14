@@ -2,6 +2,7 @@
   "name": "tachyons-lists",
   "version": "2.0.11",
   "style": "src/tachyons-lists.css",
+  "main": "src/tachyons-lists.css",
   "description": "Performance based css module.",
   "keywords": [
     "tachyons",
