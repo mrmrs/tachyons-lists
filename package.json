@@ -1,6 +1,6 @@
 {
   "name": "tachyons-lists",
-  "version": "2.0.12",
+  "version": "2.0.13",
   "style": "src/tachyons-lists.css",
   "main": "src/tachyons-lists.css",
   "description": "Performance based css module.",
